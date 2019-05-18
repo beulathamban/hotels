@@ -1,0 +1,221 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	background: teal;
+}
+
+/*@media only screen and (min-width: 600px ){*/
+
+h1{
+	text-align: center;
+	color: white;
+}
+
+#images {
+	width:90%;
+	margin:auto;
+	background: white;
+}
+.image-div {
+	width:33.3%;
+	height:400px;
+	padding:3px;
+	float:left;
+	border: 2px solid red;
+}
+
+#btn{
+	width:90%;
+	margin:auto;
+	/*background: pink;*/
+	height: 100px;
+	
+}
+.btn-place{
+	background: white;
+	color:teal;
+	float:left;
+	width:200px;
+	height:50px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	margin:30px 95px;
+	
+}
+.btn-place::after{
+	clear:left;
+	display:table;
+}
+.hotel-image{
+	width:90%;
+	height:80%;
+	margin:auto;
+	display:block;
+}
+.image-div::after{
+	clear:left;
+}
+h2{
+	color:white;
+	margin-left:30px;
+}
+h3{
+	margin: 10px 0px 10px 30px;
+}
+
+
+
+/*}*/
+@media only screen and (max-width: 1200px){ 
+
+#images, #btn{
+	width: 100%;
+}
+#btn{
+	
+	margin:auto;
+	/*background: pink;*/
+	height: 80px;
+
+}
+
+.btn-place {
+
+	float:left;
+	width:150px;
+	height:35px;
+	
+	font-size: 25px;
+	margin: 10px 120px;
+	
+}
+
+.image-div {
+	width:33.3%;
+	height:350px;
+	padding:2px;
+	float:left;
+	border: 2px solid red;
+}
+.image-div::after{
+	clear:left;
+}
+
+	}
+
+@media only screen and (max-width:900px){ 
+
+#images, #btn{
+	width: 90%;
+}
+#btn{
+	
+	margin:auto;
+	/*background: pink;*/
+	height: 80px;
+
+}
+
+.btn-place {
+
+	float:left;
+	width:100px;
+	height:35px;
+	
+	font-size: 20px;
+	margin: 10px 70px;
+	
+}
+
+.image-div {
+	width:33.3%;
+	height:350px;
+	padding:2px;
+	float:left;
+	border: 2px solid red;
+}
+.image-div::after{
+	clear:left;
+}
+
+	}
+
+@media only screen and (max-width: 786px){ 
+
+#images, #btn{
+	width: 100%;
+}
+#btn{
+	
+	margin:auto;
+	/*background: pink;*/
+	height: 50px;
+
+}
+
+.btn-place {
+
+	float:left;
+	width:100px;
+	height:35px;
+	
+	font-size: 18px;
+	margin: 10px 50px;
+	
+}
+
+.image-div {
+	width:50%;
+	height:350px;
+	padding:2px;
+	float:left;
+	border: 2px solid red;
+}
+.image-div::after{
+	clear:left;
+}
+
+	}
+
+@media only screen and (max-width: 586px){ 
+
+#images, #btn{
+	width: 100%;
+}
+#btn{
+	
+	margin:auto;
+	/*background: pink;*/
+	height: 50px;
+
+}
+
+.btn-place {
+
+	float:left;
+	width:100px;
+	height:35px;
+	
+	font-size: 15px;
+	margin: 0px 30px;
+	
+}
+
+.image-div {
+	width:100%;
+	height:400px;
+	padding:2px 3px;
+	border: 2px solid red;
+}
+h1{
+	margin: 20px;
+}
+h2,h3{
+text-align: center;
+}
+
+	}
